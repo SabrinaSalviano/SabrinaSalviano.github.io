@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>Cadastre-se</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+    
+    <div class="main">
+
+        <img class="logo" src="geometric interpise.png">
+
+    <div class="card">  
+
+        <h2>Cadastre-se</h2>
+
+        <img class="informativo" src="Como é bom ver você aqui!!! (2).png">
+
+        <form>
+            <div>
+                <label> Nome:</label> 
+                <input type="text" required>
+            </div>
+
+            <div>
+                <label> CPF:</label>
+                <input type="cpf" id="cpf" maxlength="12" required onkeyup="MasK.cpf(this)" >
+            </div>
+
+            <div>
+                <label> CEP:</label>
+                <input type="text" id="cep" maxlength="9" minlength="9" required onkeyup="MasK.cep(this)">
+            </div>
+            
+            <div>
+                <label> Celular:</label>
+                <input type="text" id="tel" maxlength="11" minlength="11" required onkeyup="MasK.tel(this)">
+            </div>
+       
+        
+            <button>  Cadastrar  </button>
+
+        </form>
+
+    </div>
+
+    <div class="footer">
+        <label class="label1"> Página para exercício de máscaras com Expressões Regulares  </label> <br>
+        <label class="label2"> Disciplina: Linguagem de Script para Web </label> <br>
+        <label class="label3"> Profº Fabio Abrantes </label>
+        <label class="label4">  Grupo: G  -  Aluna: Sabrina Salviano </label>
+
+
+    </div>
+
+</body>
+
+<script src="script.js"> </script>
+
+
+</html>
